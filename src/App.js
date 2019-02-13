@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <Editor markdownCode={this.getMarkdownCode}/>
-        <Previewer />
+        <Previewer htmlCode={this.state.markdownCode}/>
       </div>
     );
   }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Previewer() {
+function Previewer(props) {
   return (
     <div>
-      <p id='previewer'></p>
+      <p id='previewer'>{props.htmlCode}</p>
     </div>
   )
 }
