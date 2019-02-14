@@ -11,8 +11,11 @@ class Editor extends Component {
   render() {
     return (
       <form id='editor'>
-        <textarea onChange={this.handleChange}>
-          
+        <textarea 
+          onChange={this.handleChange}
+          style={{width:'100%', height : '20rem' }}
+          defaultValue='# header1'
+        >
         </textarea>
       </form>
     );
