@@ -10,8 +10,7 @@ function Previewer(props) {
     return {__html : returnedCode}
   }
   return (
-    <div>
-      <p id='previewer' dangerouslySetInnerHTML={convertMarkdown()} />
+    <div id='previewer' dangerouslySetInnerHTML={convertMarkdown()} >
     </div>
   )
 }
