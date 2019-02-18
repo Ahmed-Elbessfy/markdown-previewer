@@ -31,18 +31,13 @@ class Editor extends Component {
       - list parent two
           1. list-child
           2. list-child
-   \n --- \n ##### Blockquotes \n\n > blockquote of a wise person \n\n --- \n #### Codeblocks \n\n you can write codeblocks too: \n\n \`\`\`javascript
-     // multi-line code block
-         const functionName = (args) => {
-          return args.split('')
-        }
-      \`\`\` \n\n --- \n\n #### Tables \n\n |header | header |header | header |header |\n |-------|--------|-------|--------|-------|\n |body   | body   | body  | body   | body  |\n |body   | body   | body  | body   | body  |\n |body   | body   | body  | body   | body  |\n |body   | body   | body  | body   | body  |\n `
+   \n --- \n ##### Blockquotes \n\n > blockquote of a wise person \n\n --- \n #### Codeblocks \n\n you can write codeblocks too: \n\n \`\`\`javascript \n // multi-line code block \n const functionName = (args) => {
+       return args.split('') \n } \n \`\`\` \n\n --- \n\n #### Tables \n\n |header|header|header|header|\n |---|---|---|---|\n |body|body|body|body|\n |body|body|body|body|\n |body|body|body|body|\n |body|body|body|body|\n `
     return (
       <form id='editor'>
         <textarea
           ref = {this.textarea}
           onChange={this.handleChange}
-          style={{width:'100%', height : '20rem' }}
           defaultValue={defaultContent}
         >
         </textarea>
