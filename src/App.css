@@ -36,6 +36,11 @@ pre {
   color: #b6b6b6;
 }
 
+hr {
+  height: 3px;
+  background-color: #232323;
+}
+
 @media (min-width : 768px) {
   .App {
     grid-template-columns: repeat(2, 1fr);

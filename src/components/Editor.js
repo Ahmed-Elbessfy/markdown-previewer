@@ -14,14 +14,47 @@ class Editor extends Component {
     this.textarea.current.focus();
   }
   render() {
-    const defaultContent = ` # FreeCodeCamp Markdown Previewer \n\n _this a default content but you can change it_ \n\n ## Welcome to my second project for FreeCodeCamp \n\n this a project for the Frotn-End libraries certificate at [FreeCodeCamp]() curriculium. \n\n ### Examples of markdown syntax: \n\n You can use this as reference to markdown syntax \n\n # heading1 \n ## heading \n ### heading3 \n #### heading4 \n ##### heading5 \n ###### heading6 \n\n --- \n #### plain paragraph \n\n This a plain paragraph.This a plain paragraph.This a plain paragraph.This a plain paragraph. \n \n --- \n #### Text Styles\n\n we can create text-styles like :
-    \n *Italic Text* using astroids \* Itlaic Text \* or _Italic Text too_ using underscores \_ Italic Text \_ \n\n **Bold Text** using double astroids \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_  \n\n ~~Deleted Text~~ using hyphens \~\~ Deleted Text \~\~  \n \n --- \n #### Links \n\n This is a [link](#) \n \n --- \n #### Images \n\n ![FreeCodeCamp](https://markdown-here.com/img/icon128.png) \n \n --- \n #### Lists 
-    \n Here is some lists : \n\n * ul-list
+    const defaultContent = `# FreeCodeCamp Markdown Previewer
+    \n_this a default content but you can change it_
+    \n## Welcome to my second project for FreeCodeCamp
+    \nthis a project for the Frotn-End libraries certificate at [FreeCodeCamp]() curriculium.
+    \n### Examples of markdown syntax:
+    \nYou can use this as reference to markdown syntax
+    \n# heading1
+    \n## heading2
+    \n### heading3
+    \n#### heading4
+    \n##### heading5
+    \n###### heading6
+    \n
+    \n---
+    \n#### plain paragraph
+    \nThis a plain paragraph.This a plain paragraph.This a plain paragraph.This a plain paragraph.
+    \n
+    \n---
+    \n#### Text Styles
+    \nwe can create text-styles like :
+    \n*Italic Text* using astroids \* Itlaic Text \* or _Italic Text too_ using underscores \_ Italic Text \_
+    \n**Bold Text** using double astroids \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_
+    \n~~Deleted Text~~ using hyphens \~\~ Deleted Text \~\~
+    \n
+    \n---
+    \n#### Links
+    \nThis is a [link](#)
+    \n
+    \n---
+    \n#### Images
+    \n![FreeCodeCamp](https://markdown-here.com/img/icon128.png)
+    \n
+    \n---
+    \n#### Lists
+    \nHere is some lists :
+    \n* ul-list
     * ul-list-item
-    * ul-list-item \n * ol-list
+    * ul-list-item  * ol-list
     1. ol-list-item
     2. ol-list-item
-    3. ol-list-item \n * list-with-nested-items
+    3. ol-list-item  * list-with-nested-items
       - list item
       - list parent
           1. list-child
@@ -31,8 +64,25 @@ class Editor extends Component {
       - list parent two
           1. list-child
           2. list-child
-   \n --- \n ##### Blockquotes \n\n > blockquote of a wise person \n\n --- \n #### Codeblocks \n\n you can write codeblocks too: \n\n \`\`\`javascript \n // multi-line code block \n const functionName = (args) => {
-       return args.split('') \n } \n \`\`\` \n\n --- \n\n #### Tables \n\n |header|header|header|header|\n |---|---|---|---|\n |body|body|body|body|\n |body|body|body|body|\n |body|body|body|body|\n |body|body|body|body|\n `
+    \n
+    \n---
+    \n#### Blockquotes
+    \n> blockquote of a wise person
+    \n
+    \n---
+    \n#### Codeblocks
+    \nyou can write codeblocks too:
+    \n\`\`\`javascript
+    \n  // multi-line code block
+    \n  const functionName = (args) => {
+        return args.split('')
+    \n  }
+    \n\`\`\`
+    \n
+    \n---
+    \n#### Tables
+    \n|header|header|header|header|\n|--|--|--|--|\n|body|body|body|body|\n|body|body|body|body|\n|body|body|body|body|\n|body|body|body|body|
+    \n`
     return (
       <form id='editor'>
         <textarea
