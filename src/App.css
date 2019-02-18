@@ -6,7 +6,7 @@
 #editor textarea {
   width: 100%;
   min-height: 70vh;
-  padding: 1rem 0.3rem;
+  padding: 1rem 0.5rem;
   border: none;
   font-size: 1.1rem;
   background-color: #232323;
@@ -14,6 +14,7 @@
 }
 
 #previewer {
+  padding: 1rem 0.5rem;
   font-size: 1.1rem;
 }
 
@@ -51,7 +52,6 @@ hr {
   }
 
   #previewer {
-    padding: 0 1rem;
     margin: 0;
   }
 }
