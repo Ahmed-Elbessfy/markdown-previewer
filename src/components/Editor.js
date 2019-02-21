@@ -32,8 +32,8 @@ class Editor extends Component {
     \n
     \n#### Text Styles :
     \nWe can create text-styles like :
-    \n*Italic Text* using asteroids \* Italic Text \* or _Italic Text too_ using underscores \_ Italic Text \_
-    \n**Bold Text** using double asteroids \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_
+    \n*Italic Text* using asterisks \* Italic Text \* or _Italic Text too_ using underscores \_ Italic Text \_
+    \n**Bold Text** using double asterisks \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_
     \n~~Deleted Text~~ using hyphens \~\~ Deleted Text \~\~
     \n
     \n#### Links :
