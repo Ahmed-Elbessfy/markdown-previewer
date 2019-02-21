@@ -17,9 +17,9 @@ class Editor extends Component {
     const defaultContent = `# FreeCodeCamp Markdown Previewer
     \n_this a default content but you can change it_
     \n## Welcome to my second project for FreeCodeCamp
-    \nthis a project for the Frotn-End libraries certificate at [FreeCodeCamp]() curriculium.
+    \nthis a project for the Front-End libraries certificate at [FreeCodeCamp]() curriculum.
     \n### Examples of markdown syntax:
-    \nYou can use this as reference to markdown syntax
+    \nYou can use this as a reference to markdown syntax
     \n# heading1
     \n## heading2
     \n### heading3
@@ -34,8 +34,8 @@ class Editor extends Component {
     \n---
     \n#### Text Styles
     \nwe can create text-styles like :
-    \n*Italic Text* using astroids \* Itlaic Text \* or _Italic Text too_ using underscores \_ Italic Text \_
-    \n**Bold Text** using double astroids \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_
+    \n*Italic Text* using asteroids \* Italic Text \* or _Italic Text too_ using underscores \_ Italic Text \_
+    \n**Bold Text** using double asteroids \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_
     \n~~Deleted Text~~ using hyphens \~\~ Deleted Text \~\~
     \n
     \n---
@@ -70,8 +70,8 @@ class Editor extends Component {
     \n> blockquote of a wise person
     \n
     \n---
-    \n#### Codeblocks
-    \nyou can write codeblocks too:
+    \n#### Code blocks
+    \nyou can write code blocks too:
     \n\`\`\`javascript
     \n  // multi-line code block
     \n  const functionName = (args) => {
