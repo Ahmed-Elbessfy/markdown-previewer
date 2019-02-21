@@ -48,22 +48,25 @@ class Editor extends Component {
     \n
     \n---
     \n#### Lists
-    \nHere is some lists :
+    \nHere are some lists :
     \n* ul-list
     * ul-list-item
-    * ul-list-item  * ol-list
+    * ul-list-item
+    \n* ol-list
     1. ol-list-item
     2. ol-list-item
-    3. ol-list-item  * list-with-nested-items
-      - list item
-      - list parent
-          1. list-child
-          2. list-child
-            * list-child-second
-            * list-child-second
-      - list parent two
-          1. list-child
-          2. list-child
+    3. ol-list-item
+    \n* list-with-nested-items
+
+    - list item
+    - list parent
+        1. list-child
+        2. list-child
+          * list-child-second
+          * list-child-second
+    - list parent two
+        1. list-child
+        2. list-child
     \n
     \n---
     \n#### Blockquotes
