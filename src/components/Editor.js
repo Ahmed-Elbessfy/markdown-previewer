@@ -17,7 +17,7 @@ class Editor extends Component {
     const defaultContent = `# FreeCodeCamp Markdown Previewer
     \n_this a default content but you can change it_
     \n## Welcome to my second project for FreeCodeCamp
-    \nthis a project for the Front-End libraries certificate at [FreeCodeCamp](https://www.freecodecamp.com) curriculum.
+    \nThis a project for the Front-End libraries certificate at [FreeCodeCamp](https://www.freecodecamp.com) curriculum.
     \n### Examples of markdown syntax:
     \nYou can use this as a reference to markdown syntax
     \n# heading1
@@ -27,27 +27,22 @@ class Editor extends Component {
     \n##### heading5
     \n###### heading6
     \n
-    \n---
-    \n#### plain paragraph
+    \n#### plain paragraph :
     \nThis a plain paragraph.This a plain paragraph.This a plain paragraph.This a plain paragraph.
     \n
-    \n---
-    \n#### Text Styles
-    \nwe can create text-styles like :
+    \n#### Text Styles :
+    \nWe can create text-styles like :
     \n*Italic Text* using asteroids \* Italic Text \* or _Italic Text too_ using underscores \_ Italic Text \_
     \n**Bold Text** using double asteroids \*\* Bold Text \*\* or __Bold Text too__ using double underscores \_\_ Bold Text \_\_
     \n~~Deleted Text~~ using hyphens \~\~ Deleted Text \~\~
     \n
-    \n---
-    \n#### Links
+    \n#### Links :
     \nThis is a [link](#)
     \n
-    \n---
-    \n#### Images
+    \n#### Images :
     \n![FreeCodeCamp](https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg)
     \n
-    \n---
-    \n#### Lists
+    \n#### Lists :
     \nHere are some lists :
     \n* ul-list
     * ul-list-item
@@ -68,13 +63,11 @@ class Editor extends Component {
         1. list-child
         2. list-child
     \n
-    \n---
-    \n#### Blockquotes
+    \n#### Blockquotes : 
     \n> blockquote of a wise person
     \n
-    \n---
-    \n#### Code blocks
-    \nyou can write code blocks too:
+    \n#### Code blocks :
+    \nWe can write code blocks too:
     \n\`\`\`javascript
     \n  // multi-line code block
     \n  const functionName = (args) => {
@@ -82,10 +75,12 @@ class Editor extends Component {
     \n  }
     \n\`\`\`
     \n
-    \n---
-    \n#### Tables
+    \n#### Tables :
     \n|header|header|header|header|\n|--|--|--|--|\n|body|body|body|body|\n|body|body|body|body|\n|body|body|body|body|\n|body|body|body|body|
-    \n`
+    \n\n#### Horizontal Lines :
+    \nWe can create Horizontal lines (( hr )) elements using \\-\\-\\- or \\*\\*\\* or \n\\_\\_\\_
+    \n___
+    `
     return (
       <form id='editor'>
         <textarea
