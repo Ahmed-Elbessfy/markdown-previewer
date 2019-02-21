@@ -17,7 +17,7 @@ class Editor extends Component {
     const defaultContent = `# FreeCodeCamp Markdown Previewer
     \n_this a default content but you can change it_
     \n## Welcome to my second project for FreeCodeCamp
-    \nthis a project for the Front-End libraries certificate at [FreeCodeCamp]() curriculum.
+    \nthis a project for the Front-End libraries certificate at [FreeCodeCamp](https://www.freecodecamp.com) curriculum.
     \n### Examples of markdown syntax:
     \nYou can use this as a reference to markdown syntax
     \n# heading1
@@ -44,7 +44,7 @@ class Editor extends Component {
     \n
     \n---
     \n#### Images
-    \n![FreeCodeCamp](https://markdown-here.com/img/icon128.png)
+    \n![FreeCodeCamp](https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg)
     \n
     \n---
     \n#### Lists
