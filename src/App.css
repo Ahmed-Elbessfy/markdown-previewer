@@ -32,6 +32,7 @@ h6 {
 blockquote {
   border-left: 5px solid #232323;
   padding-left: 1.5rem;
+  font-weight: 600;
 }
 
 pre {
@@ -42,6 +43,26 @@ pre {
 hr {
   height: 3px;
   background-color: #232323;
+}
+
+table {
+  border-spacing: 0;
+}
+
+table td,
+table th {
+  padding: 2px 3px;
+  border-bottom: 1px solid #232323;
+  border-right: 1px solid #232323;
+}
+
+table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+table td:last-child,
+table th:last-child {
+  border-right: none
 }
 
 @media (min-width : 768px) {
