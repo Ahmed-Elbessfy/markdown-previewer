@@ -8,7 +8,9 @@
   min-height: 70vh;
   padding: 1rem 0.5rem;
   border: none;
+  font-family: 'Encode Sans Semi Condensed';
   font-size: 1.1rem;
+  letter-spacing: 1px;
   background-color: #232323;
   color: #b6b6b6;
 }
